@@ -54,6 +54,7 @@ Partial Class Form1
         Me.txtUsuario.Name = "txtUsuario"
         Me.txtUsuario.Size = New System.Drawing.Size(149, 20)
         Me.txtUsuario.TabIndex = 0
+        Me.txtUsuario.Text = "Manuel"
         '
         'txtPass
         '
@@ -62,6 +63,7 @@ Partial Class Form1
         Me.txtPass.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.txtPass.Size = New System.Drawing.Size(149, 20)
         Me.txtPass.TabIndex = 1
+        Me.txtPass.Text = "12345"
         '
         'bntAceptar
         '

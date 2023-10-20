@@ -9,9 +9,14 @@
             Dim f2 = New Form2()
             f2.MdiParent = Me
             f2.Show()
+        ElseIf e.ClickedItem.Text = "Progres" Then
+            Dim pro = New progres()
+            pro.MdiParent = Me
+            pro.Show()
         ElseIf e.ClickedItem.Text = "Salir" Then
             Me.Close()
         End If
+
 
     End Sub
 

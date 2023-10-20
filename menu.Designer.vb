@@ -26,12 +26,13 @@ Partial Class menu
         Me.Nuevo = New System.Windows.Forms.ToolStripMenuItem()
         Me.Abrir = New System.Windows.Forms.ToolStripMenuItem()
         Me.Salir = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Progres = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuTop.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuTop
         '
-        Me.MenuTop.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Nuevo, Me.Abrir, Me.Salir})
+        Me.MenuTop.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Nuevo, Me.Abrir, Me.Progres, Me.Salir})
         Me.MenuTop.Location = New System.Drawing.Point(0, 0)
         Me.MenuTop.Name = "MenuTop"
         Me.MenuTop.Size = New System.Drawing.Size(915, 24)
@@ -56,6 +57,12 @@ Partial Class menu
         Me.Salir.Size = New System.Drawing.Size(41, 20)
         Me.Salir.Text = "Salir"
         '
+        'Progres
+        '
+        Me.Progres.Name = "Progres"
+        Me.Progres.Size = New System.Drawing.Size(59, 20)
+        Me.Progres.Text = "Progres"
+        '
         'menu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -77,4 +84,5 @@ Partial Class menu
     Friend WithEvents Nuevo As ToolStripMenuItem
     Friend WithEvents Abrir As ToolStripMenuItem
     Friend WithEvents Salir As ToolStripMenuItem
+    Friend WithEvents Progres As ToolStripMenuItem
 End Class

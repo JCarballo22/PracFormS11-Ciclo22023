@@ -84,7 +84,7 @@ Partial Class Form2
         Me.btnRegresar.Name = "btnRegresar"
         Me.btnRegresar.Size = New System.Drawing.Size(75, 23)
         Me.btnRegresar.TabIndex = 5
-        Me.btnRegresar.Text = "Regresar"
+        Me.btnRegresar.Text = "Cerrar"
         Me.btnRegresar.UseVisualStyleBackColor = True
         '
         'lstResultado

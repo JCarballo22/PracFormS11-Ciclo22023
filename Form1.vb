@@ -5,8 +5,10 @@
             'MessageBox.Show("El Usuario es valido 'Bienvenido' ")
             'Dim v2 = New Ventana2()
             'v2.Show()
-            Dim f2 = New Form2()
-            f2.Show()
+            'Dim f2 = New Form2()
+            'f2.Show()
+            Dim menu = New menu()
+            menu.Show()
             Me.Hide()
         Else
             MessageBox.Show("El Usuario es Incorrecto")
